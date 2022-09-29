@@ -1,0 +1,16 @@
+parameters:
+  lr1: 0.005
+  lr2: 0.005
+  gamma1: 1
+  gamma2: 0.2
+  m: 50
+  std: 0.1
+  batch_size: 64
+  weight_decay: 0.0001
+  epoch_number: 600
+  realization_number: 20
+  encoder_net: {input_dim: 4000, hidden_dims: [], output_dim: 50}
+  prediction_net: {input_dim: 50, hidden_dims: [50], output_dim: 1}
+  discrimination_net: {input_dim: 50, hidden_dims: [50], output_dim: 1}
+
+
